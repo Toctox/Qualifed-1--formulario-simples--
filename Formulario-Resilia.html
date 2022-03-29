@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Resilia</title>
+    <link rel="stylesheet" href="./index.css">
+    
+</head>
+
+<body>
+    
+    <div class="campo">
+
+        <h1 id="titulo">Resilia</h1>
+        <p id="subtitulo">Complete as suas informações</p>
+        
+
+    </div class="campo">
+
+    <form>
+      <fieldset class="grupo">    
+        <div class="campo">
+
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" required>
+
+        </div class="campo">
+
+        <div class="campo">
+
+            <label for="sobrenome">Sobrenome</label>
+            <input type="text" name="sobrenome" id="sobrenome" required>
+                
+        </div class="campo">
+
+        <div class="campo">
+
+            <label for="cpf">CPF (apenas números)</label>
+            <input type="text" autocomplete="off" maxlength="11" name="cpf" id="cpf" required>
+
+            <script src="./index2.js"></script>
+
+        </div class="campo">
+           
+        <div class="campo">
+
+            <label for="email">Email*</label>
+            <input type="email" name="email" id="email" required>
+
+        </div class="campo">
+
+        <div class="campo">
+
+            <label for="nascimento">Data de nascimento</label>
+            <input type="date" name="nascimento" id="nascimento">
+
+        </div class="campo">
+
+            <label>Tenho 18 anos ou mais</label>
+            <input type="checkbox" name="18+" id="18+" required>
+
+        <div class="campo">
+        <button type="submit">Tornar-se um Resiliente!</button>
+        </div class="campo">
+
+       
+        
+    </form>
+
+    <div class="campo">
+
+        <p> OBS*: Você usará esse email durante todo o processo </p>
+
+    </div class="campo">
+
+   </fieldset class="grupo">
+</body>
+</html>
